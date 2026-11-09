@@ -1,0 +1,18 @@
+# macOS 系统文件
+.DS_Store
+
+# Python 编译文件和数据文件
+__pycache__/
+*.pyc
+*.pkl
+
+# 数据目录（CSMAR 授权数据，不上传）
+phase1/data_raw/
+phase1/data_derived/
+*.csv
+
+# 运行日志
+phase1/logs/
+
+# Word 打开时的临时文件
+~$*
